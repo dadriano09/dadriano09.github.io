@@ -1,5 +1,16 @@
 (function($) {
 
+
+	var cartaoVirtualBtn = document.getElementById('cartaoVirtualBtn');
+
+	cartaoVirtualBtn.addEventListener('click', function() {
+	  // URL do site que você deseja abrir
+	  var siteURL = 'https://linkr.bio/ALLElECTRONICS';
+  
+	  // Abre uma nova guia com o URL fornecido
+	  window.open(siteURL, '_blank');
+	});
+
 	/**
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
